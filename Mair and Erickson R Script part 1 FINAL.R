@@ -19,7 +19,7 @@ use_python("/anaconda3/bin/python")
 sessionInfo()
 
 ##-- Set working directory
-setwd('~/CloudStation/WORK/Fred Hutch Seattle/RNAseq experiments/Flow Cell 11 - AbSeq 48k PBMCs/')
+setwd('~/your_working_directory/')
 
 ##-- Data loading from CSV files derived from Seven Bridges
 Abseq_1 <- read.csv(file = 'Cartridge1/Combined_PBMC_AbSeq_1_DBEC_MolsPerCell_with_SampleTag.csv', sep = ',', header = TRUE, row.names = 1, check.names = FALSE)
