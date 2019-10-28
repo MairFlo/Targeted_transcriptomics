@@ -633,3 +633,5 @@ markers.1top5 <- markers.1 %>%
 VlnPlot(PBMC.RNA.CD8.1, features = markers.1top5$gene, ncol = 2, pt.size = 0, cols = c("#bdbdbd", "#a50f15"))
 
 VlnPlot(PBMC.RNA.CD8.1, features = c("GNLY.rna", "YBX3.rna"), ncol = 2, pt.size = 0, cols = c("#bdbdbd", "#a50f15"))
+
+                   
